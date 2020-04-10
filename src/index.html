@@ -20,21 +20,29 @@
     />
   </head>
   <body class="bg-#353433 text-#e9e8e7 p-6">
-    <div style="height: 58px;">
+    <div style="height: 1rem;">
       <dtinth-project-header
         project-id="dtinth-project-header"
         project-icon="data:image/svg+xml,%3Csvg width='610' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M509.642 0L0 194.031V0h509.642zM610 103.97v392.702L105.961 300.623 610 103.969zM509.642 600H0V405.969L509.642 600z' fill='%23D7FC70' fill-rule='evenodd'/%3E%3C/svg%3E"
       >
-        <h1>
-          <span class="font-normal text-#8b8685">@</span
-          ><span class="text-#d7fc70">dtinth</span>’s
-          <span class="text-#bbeeff">project header</span>
+        <h1 class="text-#8b8685">
+          <span class="font-normal">@</span
+          ><span class="text-#d7fc70">dtinth</span>/<span class="text-#bbeeff"
+            >project-header</span
+          >
         </h1>
       </dtinth-project-header>
     </div>
 
-    <p class="my-4 max-w-xl">
-      For use in my own projects…
+    <p class="my-4 max-w-xl pl-10">
+      A usable web component that renders a project header. Built with Stencil.
     </p>
+
+    <dtinth-project-header
+      project-id="dtinth-project-header"
+      project-icon="data:image/svg+xml,%3Csvg width='610' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M509.642 0L0 194.031V0h509.642zM610 103.97v392.702L105.961 300.623 610 103.969zM509.642 600H0V405.969L509.642 600z' fill='%23D7FC70' fill-rule='evenodd'/%3E%3C/svg%3E"
+      display-position="top-right"
+    >
+    </dtinth-project-header>
   </body>
 </html>

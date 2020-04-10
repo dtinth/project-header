@@ -7,6 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface DtinthProjectHeader {
+        "displayPosition": "top-left" | "top-right";
         "projectIcon": string;
         "projectId": string;
         "projectName": string;
@@ -25,6 +26,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface DtinthProjectHeader {
+        "displayPosition"?: "top-left" | "top-right";
         "projectIcon"?: string;
         "projectId"?: string;
         "projectName"?: string;
