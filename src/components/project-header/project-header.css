@@ -1,0 +1,44 @@
+:host {
+  display: inline;
+}
+.dtinth-project-icon-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 58px;
+  pointer-events: none;
+}
+.dtinth-project-icon-frame svg {
+  width: 58px;
+  height: 58px;
+  color: #8b8685;
+}
+.dtinth-project-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.dtinth-project-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+}
+h1.dtinth-project-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 16px;
+  left: 60px;
+  font: bold 20px/22px Arimo, sans-serif;
+  color: #e9e8e7;
+}
