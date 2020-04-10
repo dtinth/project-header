@@ -16,7 +16,9 @@ jobs:
       - name: 🛒
         run: yarn
       - name: 🔨
-        run: yarn build
+        run: |
+          yarn build
+          echo 'project-header.dt.in.th' > www/CNAME
       - name: 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
