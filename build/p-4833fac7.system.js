@@ -1,0 +1,1 @@
+System.register(["./p-f6b0f4a9.system.js"],(function(){"use strict";var e,t;return{setters:[function(c){e=c.p;t=c.b}],execute:function(){e().then((function(e){return t([["p-cec76997.system",[[6,"dtinth-project-header",{projectName:[1,"project-name"],projectId:[1,"project-id"],projectIcon:[1,"project-icon"]}]]]],e)}))}}}));
