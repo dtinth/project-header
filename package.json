@@ -1,5 +1,5 @@
 {
-  "name": "dtinth-project-header",
+  "name": "@dtinth/project-header",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
